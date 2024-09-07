@@ -1,0 +1,38 @@
+.exchange_subtitle span {
+  color: #282822 !important;
+  font-weight: 700;
+}
+
+.exchange_left_body_animation {
+  max-width: 130px;
+  margin: 20px 0px;
+  max-height: 130px;
+}
+
+.exchange_left_body_animation img {
+  width: 100%;
+  height: 100%;
+}
+
+.exchange_left_body_animation_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exchange_left {
+  max-width: 1000px !important;
+  width: 100%;
+  padding: 0px 20px !important;
+}
+
+.exchange_end_status {
+  width: 246px !important;
+}
+
+.exchange_status_waiting_text span {
+  color: #464646;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
