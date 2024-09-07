@@ -220,7 +220,6 @@ input:checked + .slider:before {
   height: 39px;
   border-radius: 20px;
   background: #282822;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 18px;
