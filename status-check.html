@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title of website -->
+    <title>FastBit</title>
+
+    <!-- Link to style css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/end.css" />
+    <link rel="stylesheet" href="./css/check.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/check-last.css" />
+    <link rel="stylesheet" href="./css/status-check.css" />
+
+    <!-- Link to bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header">
+      <div class="container pc-responsive">
+        <nav class="header_nav">
+          <div class="header_nav_top">
+            <div class="nav_langs">
+              <div class="nav_lang active">
+                <img src="./images/icons/russia.png" alt="" />
+                RU
+              </div>
+              <div class="nav_lang">
+                <img src="./images/icons/usa.png" alt="" />
+                ENG
+              </div>
+            </div>
+            <div class="nav_profile">
+              <div class="nav_profile_content">
+                <img src="./images/icons/profile.png" alt="" />
+                <span> Панель управления </span>
+              </div>
+
+              <div class="nav_click_items hidden">
+                <div class="nav_click_item">
+                  <a href="#">
+                    <img src="./images/icons/tick.svg" alt="" />
+                    Регистрация
+                  </a>
+                </div>
+                <div class="nav_click_item">
+                  <a href="#">
+                    <img src="./images/icons/unlock.svg" alt="" />
+                    Вход
+                  </a>
+                </div>
+                <div class="nav_click_item">
+                  <a href="#">
+                    <img src="./images/icons/key.svg" alt="" />
+                    Забыли пароль
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header_nav_bottom">
+            <div class="nav_logo">
+              <img src="./images/logo.png" alt="" />
+            </div>
+            <div class="nav_socials">
+              <a href="email:fastbit@proton.me" class="nav_social">
+                <img src="./images/icons/email.png" alt="" />
+                <span>fastbit@proton.me</span>
+              </a>
+              <a target="_blank" href="https://t.me/fastbit" class="nav_social">
+                <img src="./images/icons/telegram.png" alt="" />
+                <span>@fastbit</span>
+              </a>
+              <a
+                target="_blank"
+                href="https://t.me/fastbitbot"
+                class="nav_social"
+              >
+                <img src="./images/icons/bot.png" alt="" />
+                <span>@fastbitbot</span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container hidden mobile-responsive">
+        <div class="responsive_header">
+          <div>
+            <div class="nav_logo">
+              <img src="./images/favicon.ico" style="width: 40px" alt="" />
+            </div>
+            <div class="nav_langs">
+              <div class="nav_lang active">
+                <img src="./images/icons/russia.png" alt="" />
+                RU
+              </div>
+              <div class="nav_lang">
+                <img src="./images/icons/usa.png" alt="" />
+                ENG
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="nav_socials">
+              <a href="email:fastbit@proton.me" class="nav_social">
+                <img src="./images/icons/email.png" alt="" />
+              </a>
+              <a target="_blank" href="https://t.me/fastbit" class="nav_social">
+                <img src="./images/icons/telegram.png" alt="" />
+              </a>
+              <a
+                target="_blank"
+                href="https://t.me/fastbitbot"
+                class="nav_social"
+              >
+                <img src="./images/icons/bot.png" alt="" />
+              </a>
+            </div>
+            <div class="nav_profile">
+              <div class="nav_profile_content nav_profile_content_2">
+                <img src="./images/icons/profile.png" alt="" />
+              </div>
+
+              <div class="nav_click_items hidden nav_click_items_2">
+                <div class="nav_click_item">
+                  <a href="#">
+                    <img src="./images/icons/tick.svg" alt="" />
+                    Регистрация
+                  </a>
+                </div>
+                <div class="nav_click_item">
+                  <a href="#">
+                    <img src="./images/icons/unlock.svg" alt="" />
+                    Вход
+                  </a>
+                </div>
+                <div class="nav_click_item">
+                  <a href="#">
+                    <img src="./images/icons/key.svg" alt="" />
+                    Забыли пароль
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /Header section -->
+
+    <!-- Main section -->
+    <main>
+      <!-- Categories section -->
+      <section class="categories">
+        <div class="container">
+          <div class="category active">
+            <img src="./images/categories/category-5.svg" alt="" />
+            <span>Обмен</span>
+          </div>
+          <div class="category">
+            <img src="./images/categories/category-1.svg" alt="" />
+            <span>Выставить счет</span>
+          </div>
+          <div class="category">
+            <img src="./images/categories/category-2.svg" alt="" />
+            <span>Отзывы</span>
+          </div>
+          <div class="category">
+            <img src="./images/categories/category-3.svg" alt="" />
+            <span>Тарифы</span>
+          </div>
+          <div class="category">
+            <img src="./images/categories/category-4.svg" alt="" />
+            <span>Контакты</span>
+          </div>
+        </div>
+      </section>
+      <!-- /Categories section -->
+
+      <!-- Completed section -->
+      <section class="completed">
+        <div class="container">
+          <div class="completed_names">
+            <a href="/" class="done">Создание заявки</a>
+            <a href="/check.html" class="done">Проверка</a>
+            <a href="/end.html" class="active">Завершение обмена</a>
+          </div>
+          <div class="completed_main">
+            <div class="complition-show-half">
+              <img src="./images/complition-show-half.png" alt="" />
+            </div>
+            <div class="complition_show_container">
+              <img src="./images/complition.png" alt="" />
+            </div>
+            <div class="complition-show-image">
+              <img src="./images/complition-show.png" alt="" />
+            </div>
+          </div>
+          <p class="completed_text">
+            1 BTC - <span>5170081.6664</span> VISA/MC/Мир RUB
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="22"
+              viewBox="0 0 19 22"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M9.5 22C14.7467 22 19 17.7467 19 12.5C19 7.25329 14.7467 3 9.5 3C4.25329 3 0 7.25329 0 12.5C0 17.7467 4.25329 22 9.5 22ZM10.5 7H8.5V12.4142L12.3284 16.2426L13.7426 14.8284L10.5 11.5858V7ZM6.5 0H12.5V2H6.5V0Z"
+                fill="#7C7C7C"
+              />
+            </svg>
+            59
+          </p>
+        </div>
+      </section>
+      <!-- /Completed section -->
+
+      <!-- Exchange section -->
+      <section class="exchange">
+        <div class="container">
+          <div class="exchange_left">
+            <p class="exchange_subtitle">
+              Вы заказали обмен: <span>0.00827971</span> Bitcoin BTC
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="13"
+                viewBox="0 0 17 13"
+                fill="none"
+              >
+                <path
+                  d="M11.8135 12L16.0006 6.56653V6.56152L11.7148 1"
+                  stroke="#DADADA"
+                  stroke-width="2"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6.33599 12L10.523 6.56653V6.56152L6.2373 1"
+                  stroke="#7C7C7C"
+                  stroke-width="2"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M1.09867 12L5.28571 6.56653V6.56152L1 1"
+                  stroke="#282822"
+                  stroke-width="2"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <span>40166.03</span> Сбербанк RUB
+            </p>
+            <p class="exchange_subtitle">ID транзакции: <b>1309</b></p>
+            <hr class="exchange_hr" />
+            <h1 class="title exchange_title">
+              <b>Переведите</b>
+              <img src="./images/to-3.png" alt="" />
+              <span>0.00827971</span> Bitcoin BTC
+            </h1>
+            <p class="exchange_subtitle">на счет:</p>
+            <div class="exchange_address_input">
+              <input
+                type="text"
+                value="TWn3kZTa2mYXC3DjPJH5a4UL65mZg5BLLj"
+                class="exchange_address_input"
+                readonly
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+                id="copyBtn"
+                style="cursor: pointer"
+              >
+                <path
+                  d="M2.10708 0H14.1623C15.3368 0 16.2694 0.932643 16.2694 2.10708V3.73057H17.7893C18.9983 3.73057 20 4.7323 20 5.94128V18.5147C20 19.7237 18.9983 20.7254 17.7893 20.7254H5.94128C4.7323 20.7254 3.73057 19.7237 3.73057 18.5147V16.9948H2.10708C0.932642 16.9948 0 16.0622 0 14.8877V2.10708C0 0.932643 0.932642 0 2.10708 0ZM5.11226 18.5147C5.11226 18.9637 5.49223 19.3437 5.94128 19.3437H17.7893C18.2383 19.3437 18.6183 18.9637 18.6183 18.5147V5.94128C18.6183 5.49223 18.2383 5.11226 17.7893 5.11226H16.2694V14.9223C16.2694 16.0967 15.3368 17.0294 14.1623 17.0294H5.11226V18.5147ZM5.14681 12.9188H11.1226C11.5026 12.9188 11.8135 12.6079 11.8135 12.228C11.8135 11.848 11.5026 11.5371 11.1226 11.5371H5.18135C4.80138 11.5371 4.4905 11.848 4.4905 12.228C4.45596 12.6079 4.76684 12.9188 5.14681 12.9188ZM5.14681 9.01554H11.1226C11.5026 9.01554 11.8135 8.70466 11.8135 8.3247C11.8135 7.94473 11.5026 7.63385 11.1226 7.63385H5.18135C4.80138 7.63385 4.4905 7.94473 4.4905 8.3247C4.45596 8.70466 4.76684 9.01554 5.14681 9.01554ZM5.14681 5.11226H11.1226C11.5026 5.11226 11.8135 4.80138 11.8135 4.42142C11.8135 4.04145 11.5026 3.73057 11.1226 3.73057H5.18135C4.80138 3.73057 4.4905 4.04145 4.4905 4.42142C4.45596 4.80138 4.76684 5.11226 5.14681 5.11226Z"
+                  fill="#DDDDDD"
+                />
+              </svg>
+            </div>
+            <p>
+              У зарегистрированных больше возможностей.
+              <span>Зарегистрируйтесь</span>
+            </p>
+            <div class="exchange_end_status_container">
+              <div class="exchange_end_status">
+                <p>
+                  Статус обмена: <br />
+                  <span
+                    >В ожидании перевода средств или обработки оператором</span
+                  >
+                </p>
+              </div>
+            </div>
+            <div>
+              <p class="end_error">
+                Заявка будет отменена, если перевод не будет выполнен в
+                ближайшие 60 минут(ы)
+              </p>
+              <p class="end_bottom_text">
+                Кликните <span>Выполнено</span>, если вы перевели средства на
+                указанные реквизиты.
+              </p>
+            </div>
+            <div class="exchange_bottom_button exchange_address_btns">
+              <button class="btn">
+                выполнено
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="31"
+                  viewBox="0 0 30 31"
+                  fill="none"
+                >
+                  <path
+                    d="M23.7573 6.70994C21.7194 8.22143 16.1248 10.6574 10.0499 8.30933"
+                    stroke="#464646"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  ></path>
+                  <path
+                    d="M23.7568 6.71005C22.2453 8.74798 19.8092 14.3425 22.1571 20.4173"
+                    stroke="#464646"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  ></path>
+                  <path
+                    d="M6.36396 24.7231L24.0416 7.04548"
+                    stroke="#464646"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </button>
+              <button class="sec-btn">подробности</button>
+            </div>
+            <div class="exchange_copyright">
+              <p>
+                По всем вопросам обращайтесь пожалуйста&nbsp; по указанным
+                <br />
+                <a href="#">контактам</a> или в
+                <a href="#">Службу поддержки</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Exchange section -->
+
+      <!-- Background image -->
+      <div class="background_image">
+        <img src="./images/main-background.svg" alt="" />
+      </div>
+      <!-- /Background image -->
+    </main>
+    <!-- /Main section -->
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_icons footer_icons_show">
+          <div class="footer_icon">
+            <img src="./images/icons/email.png" alt="" />
+          </div>
+          <div class="footer_icon">
+            <img src="./images/icons/telegram.png" alt="" />
+          </div>
+          <div class="footer_icon">
+            <img src="./images/icons/bot.png" alt="" />
+          </div>
+        </div>
+        <div class="footer_logo">
+          <img src="./images/logo.png" alt="" />
+
+          <p>© 2024 FastBIt. All rights reserved.</p>
+        </div>
+        <div class="footer_responsive">
+          <img src="./images/logo.png" alt="" />
+
+          <div class="footer_icons">
+            <div class="footer_icon">
+              <img src="./images/icons/email.png" alt="" />
+            </div>
+            <div class="footer_icon">
+              <img src="./images/icons/telegram.png" alt="" />
+            </div>
+            <div class="footer_icon">
+              <img src="./images/icons/bot.png" alt="" />
+            </div>
+          </div>
+
+          <p class="copyright">© 2024 FastBIt. All rights reserved.</p>
+        </div>
+        <ul class="footer_items">
+          <li class="footer_item">
+            <a href="#">Карта сайта</a>
+          </li>
+          <li class="footer_item">
+            <a href="#">Контакты</a>
+          </li>
+          <li class="footer_item">
+            <a href="#">Мониторингам</a>
+          </li>
+          <li class="footer_item">
+            <a href="#">API Документация</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- /Footer section -->
+
+    <!-- Link to js -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

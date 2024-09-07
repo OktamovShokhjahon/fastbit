@@ -1,0 +1,73 @@
+.exchange_address_input {
+  position: relative;
+}
+
+.exchange_address_input input {
+  border-radius: 25px;
+  background: #282822;
+  color: #fed130;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 380px;
+  padding: 15px;
+}
+
+.exchange_end_status {
+  max-width: 551px !important;
+  padding: 40px 10px !important;
+}
+
+.title.exchange_title {
+  color: #464646;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.title.exchange_title img {
+  width: 30px;
+  height: 30px;
+  background: #f7931a;
+  border-radius: 5px;
+}
+
+.end_error {
+  margin-top: 40px;
+}
+
+.exchange_bottom_button.exchange_address_btns .btn,
+.exchange_bottom_button.exchange_address_btns .sec-btn {
+  color: #464646;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 20px 50px !important;
+}
+
+.exchange_bottom_button.exchange_address_btns .sec-btn {
+  color: #fed130;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.exchange_subtitle {
+  color: #464646;
+  font-weight: 300;
+}
+
+.exchange_subtitle span {
+  color: #87b000;
+  font-weight: 700;
+  margin-top: 40px !important;
+}
+
+.exchange_left {
+  min-height: 580px !important;
+}
+
+@media only screen and (max-width: 430px) {
+  .exchange_address_input input {
+    max-width: 250px !important;
+  }
+}

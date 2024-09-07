@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title of website -->
+    <title>FastBit</title>
+
+    <!-- Link to style css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <!-- Link to bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header">
+      <div class="container pc-responsive">
+        <nav class="header_nav">
+          <div class="header_nav_top">
+            <div class="nav_langs">
+              <div class="nav_lang active">
+                <img src="./images/icons/russia.png" alt="" />
+                RU
+              </div>
+              <div class="nav_lang">
+                <img src="./images/icons/usa.png" alt="" />
+                ENG
+              </div>
+            </div>
+            <div class="nav_profile">
+              <div class="nav_profile_content">
+                <img src="./images/icons/profile.png" alt="" />
+                <span> Панель управления </span>
+              </div>
+
+              <div class="nav_click_items hidden">
+                <div class="nav_click_item">
+                  <a href="#">
+                    <img src="./images/icons/tick.svg" alt="" />
+                    Регистрация
+                  </a>
+                </div>
+                <div class="nav_click_item">
+                  <a href="#">
+                    <img src="./images/icons/unlock.svg" alt="" />
+                    Вход
+                  </a>
+                </div>
+                <div class="nav_click_item">
+                  <a href="#">
+                    <img src="./images/icons/key.svg" alt="" />
+                    Забыли пароль
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header_nav_bottom">
+            <div class="nav_logo">
+              <img src="./images/logo.png" alt="" />
+            </div>
+            <div class="nav_socials">
+              <a href="email:fastbit@proton.me" class="nav_social">
+                <img src="./images/icons/email.png" alt="" />
+                <span>fastbit@proton.me</span>
+              </a>
+              <a target="_blank" href="https://t.me/fastbit" class="nav_social">
+                <img src="./images/icons/telegram.png" alt="" />
+                <span>@fastbit</span>
+              </a>
+              <a
+                target="_blank"
+                href="https://t.me/fastbitbot"
+                class="nav_social"
+              >
+                <img src="./images/icons/bot.png" alt="" />
+                <span>@fastbitbot</span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container hidden mobile-responsive">
+        <div class="responsive_header">
+          <div>
+            <div class="nav_logo">
+              <img src="./images/favicon.ico" style="width: 40px" alt="" />
+            </div>
+            <div class="nav_langs">
+              <div class="nav_lang active">
+                <img src="./images/icons/russia.png" alt="" />
+                RU
+              </div>
+              <div class="nav_lang">
+                <img src="./images/icons/usa.png" alt="" />
+                ENG
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="nav_socials">
+              <a href="email:fastbit@proton.me" class="nav_social">
+                <img src="./images/icons/email.png" alt="" />
+              </a>
+              <a target="_blank" href="https://t.me/fastbit" class="nav_social">
+                <img src="./images/icons/telegram.png" alt="" />
+              </a>
+              <a
+                target="_blank"
+                href="https://t.me/fastbitbot"
+                class="nav_social"
+              >
+                <img src="./images/icons/bot.png" alt="" />
+              </a>
+            </div>
+            <div class="nav_profile">
+              <div class="nav_profile_content nav_profile_content_2">
+                <img src="./images/icons/profile.png" alt="" />
+              </div>
+
+              <div class="nav_click_items hidden nav_click_items_2">
+                <div class="nav_click_item">
+                  <a href="#">
+                    <img src="./images/icons/tick.svg" alt="" />
+                    Регистрация
+                  </a>
+                </div>
+                <div class="nav_click_item">
+                  <a href="#">
+                    <img src="./images/icons/unlock.svg" alt="" />
+                    Вход
+                  </a>
+                </div>
+                <div class="nav_click_item">
+                  <a href="#">
+                    <img src="./images/icons/key.svg" alt="" />
+                    Забыли пароль
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /Header section -->
+
+    <!-- Main section -->
+    <main>
+      <!-- Categories section -->
+      <section class="categories">
+        <div class="container">
+          <div class="category active">
+            <img src="./images/categories/category-5.svg" alt="" />
+            <span>Обмен</span>
+          </div>
+          <div class="category">
+            <img src="./images/categories/category-1.svg" alt="" />
+            <span>Выставить счет</span>
+          </div>
+          <div class="category">
+            <img src="./images/categories/category-2.svg" alt="" />
+            <span>Отзывы</span>
+          </div>
+          <div class="category">
+            <img src="./images/categories/category-3.svg" alt="" />
+            <span>Тарифы</span>
+          </div>
+          <div class="category">
+            <img src="./images/categories/category-4.svg" alt="" />
+            <span>Контакты</span>
+          </div>
+        </div>
+      </section>
+      <!-- /Categories section -->
+
+      <!-- Completed section -->
+      <section class="completed">
+        <div class="container">
+          <div class="completed_names">
+            <a href="/index.html" class="active">Создание заявки</a>
+            <a href="/check.html">Проверка</a>
+            <a href="/end.html">Завершение обмена</a>
+          </div>
+          <div class="completed_main">
+            <div class="complition_show_container">
+              <img src="./images/complition.png" alt="" />
+            </div>
+            <div class="">
+              <img src="./images/complition-show.png" alt="" />
+            </div>
+          </div>
+          <p class="completed_text">
+            1 BTC - <span>5170081.6664</span> VISA/MC/Мир RUB
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="22"
+              viewBox="0 0 19 22"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M9.5 22C14.7467 22 19 17.7467 19 12.5C19 7.25329 14.7467 3 9.5 3C4.25329 3 0 7.25329 0 12.5C0 17.7467 4.25329 22 9.5 22ZM10.5 7H8.5V12.4142L12.3284 16.2426L13.7426 14.8284L10.5 11.5858V7ZM6.5 0H12.5V2H6.5V0Z"
+                fill="#7C7C7C"
+              />
+            </svg>
+            59
+          </p>
+        </div>
+      </section>
+      <!-- /Completed section -->
+
+      <!-- Exchange section -->
+      <section class="exchange">
+        <div class="container">
+          <div class="exchange_left">
+            <div class="exchange_top">
+              <div class="exchange_item">
+                <div class="exchange_item_top">
+                  <div class="exchange_item_image">
+                    <p>Отдаете</p>
+                    <div class="exchange_item_resp">
+                      <img src="./images/cryptos/Group 47.svg" alt="" />
+                      <span>RUB</span>
+
+                      <div
+                        class="show-in-resp show-exchange-from"
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="19"
+                          height="10"
+                          viewBox="0 0 19 10"
+                          fill="none"
+                        >
+                          <path
+                            d="M-4.58348e-05 1.3357C-4.58198e-05 0.993909 0.138914 0.651838 0.416868 0.391322C0.972328 -0.130442 1.87347 -0.130442 2.42901 0.391322L9.15781 6.70696L15.8867 0.391323C16.4422 -0.130441 17.3433 -0.130441 17.8988 0.391323C18.4546 0.912424 18.4546 1.75891 17.8988 2.28001L10.1639 9.54037C9.60842 10.0621 8.70724 10.0621 8.15171 9.54037L0.416868 2.28001C0.138876 2.01949 -4.58497e-05 1.67742 -4.58348e-05 1.3357Z"
+                            fill="#FED130"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <input class="exchange_item_price" value="1385990" />
+                </div>
+                <p class="exchange_item_bottom_text">
+                  Минимум: 1000/ Макс. за транзакцию: <span>220000</span>
+                </p>
+              </div>
+              <div class="exchange_top_image">
+                <img src="./images/icons/right-arrow.svg" alt="" />
+              </div>
+              <div class="exchange_item">
+                <div class="exchange_item_top">
+                  <div class="exchange_item_image">
+                    <p>Отдаете</p>
+                    <div>
+                      <img src="./images/cryptos/Group 47.svg" alt="" />
+                      <span>RUB</span>
+
+                      <div
+                        class="show-in-resp show-exchange-from"
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="19"
+                          height="10"
+                          viewBox="0 0 19 10"
+                          fill="none"
+                        >
+                          <path
+                            d="M-4.58348e-05 1.3357C-4.58198e-05 0.993909 0.138914 0.651838 0.416868 0.391322C0.972328 -0.130442 1.87347 -0.130442 2.42901 0.391322L9.15781 6.70696L15.8867 0.391323C16.4422 -0.130441 17.3433 -0.130441 17.8988 0.391323C18.4546 0.912424 18.4546 1.75891 17.8988 2.28001L10.1639 9.54037C9.60842 10.0621 8.70724 10.0621 8.15171 9.54037L0.416868 2.28001C0.138876 2.01949 -4.58497e-05 1.67742 -4.58348e-05 1.3357Z"
+                            fill="#FED130"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <input class="exchange_item_price" value="1385990" />
+                </div>
+                <p class="exchange_item_bottom_text">
+                  Минимум: 1000/ Макс. за транзакцию: <span>220000</span>
+                </p>
+              </div>
+            </div>
+            <div class="exchange_top_res_image">
+              <img src="./images/icons/right-arrow.svg" alt="" />
+            </div>
+            <div class="exchange_bottom">
+              <div class="exchange_bottom_left">
+                <div class="exchange_bottom_item active">
+                  <img src="./images/cryptos/Group 47.svg" alt="" />
+                  <span>Тинькофф RUB</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 70.svg" alt="" />
+                  <span>Сбербанк RUB</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 69.svg" alt="" />
+                  <span>СБП RUB</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/картаСС.svg" alt="" />
+                  <span>VISA/Mastercard/Мир RUB</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 49.svg" alt="" />
+                  <span>Bitcoin BTC</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 52.svg" alt="" />
+                  <span>Monero XMR</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 54.svg" alt="" />
+                  <span>Litecoin LTC</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 56.svg" alt="" />
+                  <span>TRC20 USDT</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 57.svg" alt="" />
+                  <span>Dash DASH</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 58.svg" alt="" />
+                  <span>Ethereum ETH</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 59.svg" alt="" />
+                  <span>Toncoin TON</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 60.svg" alt="" />
+                  <span>Bitcoin Cash BCH</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 61.svg" alt="" />
+                  <span>Dogecoin DOGE</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 62.svg" alt="" />
+                  <span>Zcash ZEC</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 63.svg" alt="" />
+                  <span>Ripple XRP</span>
+                </div>
+              </div>
+              <div class="exchange_bottom_right">
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 51.svg" alt="" />
+                  <span>Bitcoin BTC</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 53.svg" alt="" />
+                  <span>Monero XMR</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 55.svg" alt="" />
+                  <span>Litecoin LTC</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 64.svg" alt="" />
+                  <span>TRC20 USDT</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 65.svg" alt="" />
+                  <span>Dash DASH</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 66.svg" alt="" />
+                  <span>Ethereum ETH</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 67.svg" alt="" />
+                  <span>Bitcoin Cash BCH</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 68.svg" alt="" />
+                  <span>Dogecoin DOGE</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="exchange_right_arrow_image">
+            <img src="./images/icons/right-arrow.svg" alt="" />
+          </div>
+          <div class="exchange_right">
+            <div class="exchange_right_arrow_image rem_in_resp">
+              <img src="./images/icons/right-arrow.svg" alt="" />
+            </div>
+            <div class="exchange_right_form">
+              <div>
+                <label for="email"><span>*</span> E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="bonmart44@gmail.com"
+                  class="form_input"
+                />
+              </div>
+              <div>
+                <label for="card_number"><span>*</span> Номер карты</label>
+                <input
+                  type="text"
+                  id="card_number"
+                  class="form_input"
+                  placeholder="Введите Ваш номер карты"
+                />
+                <p class="input_error">Неверный адрес</p>
+              </div>
+              <div class="exchange_form_button show_in_resp">
+                <button class="btn" style="width: 325px; margin-top: 30px">
+                  Обменять
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="31"
+                    viewBox="0 0 30 31"
+                    fill="none"
+                  >
+                    <path
+                      d="M23.8131 6.70994C21.7751 8.22143 16.1805 10.6574 10.1056 8.30933"
+                      stroke="#464646"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M23.8126 6.71005C22.3011 8.74798 19.865 14.3425 22.2129 20.4173"
+                      stroke="#464646"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M6.4198 24.7232L24.0975 7.04549"
+                      stroke="#464646"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="exchange_form_checkboxes">
+                <div class="exchange_form_checkbox">
+                  <label class="custom-checkbox" for="Сбербанк">
+                    <input type="radio" id="Сбербанк" name="bank" />
+                    <span class="checkmark"></span>
+                    Сбербанк
+                  </label>
+                </div>
+                <div class="exchange_form_checkbox">
+                  <label class="custom-checkbox" for="Тинькофф">
+                    <input type="radio" id="Тинькофф" name="bank" />
+                    <span class="checkmark"></span>
+                    Тинькофф
+                  </label>
+                </div>
+                <div class="exchange_form_checkbox">
+                  <label class="custom-checkbox" for="Райффайзен">
+                    <input type="radio" id="Райффайзен" name="bank" />
+                    <span class="checkmark"></span>
+                    Райффайзен
+                  </label>
+                </div>
+                <div class="exchange_form_checkbox">
+                  <label class="custom-checkbox" for="Газпром">
+                    <input type="radio" id="Газпром" name="bank" />
+                    <span class="checkmark"></span>
+                    Газпром
+                  </label>
+                </div>
+                <div class="exchange_form_checkbox">
+                  <label class="custom-checkbox" for="ВТБ">
+                    <input type="radio" id="ВТБ" name="bank" />
+                    <span class="checkmark"></span>
+                    ВТБ
+                  </label>
+                </div>
+                <div class="exchange_form_checkbox">
+                  <label class="custom-checkbox" for="Альфа">
+                    <input type="radio" id="Альфа" name="bank" />
+                    <span class="checkmark"></span>
+                    Альфа
+                  </label>
+                </div>
+                <div class="exchange_form_checkbox">
+                  <label class="custom-checkbox" for="АкБарс">
+                    <input type="radio" id="АкБарс" name="bank" />
+                    <span class="checkmark"></span>
+                    Ак Барс
+                  </label>
+                </div>
+                <div class="exchange_form_checkbox">
+                  <label class="custom-checkbox" for="РусскийСтандарт">
+                    <input type="radio" id="РусскийСтандарт" name="bank" />
+                    <span class="checkmark"></span>
+                    Русский Стандарт
+                  </label>
+                </div>
+                <div class="exchange_form_checkbox">
+                  <label class="custom-checkbox" for="Уралсиб">
+                    <input type="radio" id="Уралсиб" name="bank" />
+                    <span class="checkmark"></span>
+                    Уралсиб
+                  </label>
+                </div>
+                <div class="exchange_form_checkbox">
+                  <label class="custom-checkbox" for="Промсвязь">
+                    <input type="radio" id="Промсвязь" name="bank" />
+                    <span class="checkmark"></span>
+                    Промсвязь
+                  </label>
+                </div>
+                <div class="exchange_form_checkbox">
+                  <label class="custom-checkbox" for="Россельхоз">
+                    <input type="radio" id="Россельхоз" name="bank" />
+                    <span class="checkmark"></span>
+                    Россельхоз
+                  </label>
+                </div>
+                <div class="exchange_form_checkbox">
+                  <label class="custom-checkbox" for="Другой">
+                    <input type="radio" id="Другой" name="bank" />
+                    <span class="checkmark"></span>
+                    Другой
+                  </label>
+                </div>
+                <div class="exchange_form_button">
+                  <button class="btn" style="width: 325px; margin-top: 30px">
+                    Обменять
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="31"
+                      viewBox="0 0 30 31"
+                      fill="none"
+                    >
+                      <path
+                        d="M23.8131 6.70994C21.7751 8.22143 16.1805 10.6574 10.1056 8.30933"
+                        stroke="#464646"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M23.8126 6.71005C22.3011 8.74798 19.865 14.3425 22.2129 20.4173"
+                        stroke="#464646"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M6.4198 24.7232L24.0975 7.04549"
+                        stroke="#464646"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Exchange section -->
+
+      <!-- Comments section -->
+      <section class="clients">
+        <div class="container">
+          <div class="clients_info">
+            <h1 class="title">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="45"
+                height="47"
+                viewBox="0 0 45 47"
+                fill="none"
+              >
+                <path
+                  d="M21.4686 41.6002C21.0545 39.9173 19.5448 38.7346 17.8117 38.7354L15.1714 27.9936H7.41922L10.8977 42.146C11.4924 44.5655 13.6625 46.266 16.154 46.2649L17.8151 46.2639C20.2575 46.2628 22.0522 43.9719 21.4686 41.6002Z"
+                  fill="#282822"
+                />
+                <path
+                  d="M6.51578 30.874H13.5938V8.36749H6.51578C2.91722 8.36749 0 11.2847 0 14.8833V24.3583C7.2289e-06 27.9568 2.91722 30.874 6.51578 30.874Z"
+                  fill="#282822"
+                />
+                <path
+                  d="M42.6411 37.4219L13.5938 30.874V8.36749L42.6411 1.81967V37.4219Z"
+                  fill="#FED130"
+                />
+                <path
+                  d="M41.6872 39.2416C40.2179 39.2416 39.0269 38.0505 39.0269 36.5813V2.66032C39.0269 1.19107 40.2179 0 41.6872 0C43.1564 0 44.3475 1.19107 44.3475 2.66032V36.5813C44.3475 38.0505 43.1564 39.2416 41.6872 39.2416Z"
+                  fill="#282822"
+                />
+              </svg>
+
+              Что говорят наши клиенты?
+            </h1>
+          </div>
+
+          <div class="comments">
+            <div class="comment">
+              <div class="comment_header">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.0711 2.92892C15.1823 1.04019 12.6712 0 10 0C7.3288 0 4.81766 1.04019 2.92892 2.92892C1.04019 4.81766 0 7.3288 0 10C0 12.6711 1.04019 15.1823 2.92892 17.0711C3.19778 17.3401 3.47977 17.5911 3.77258 17.825C3.90366 15.3696 5.46158 13.2869 7.63016 12.3927C6.43814 11.6156 5.6485 10.2708 5.6485 8.74481C5.6485 6.34537 7.60056 4.39331 10 4.39331C12.3994 4.39331 14.3515 6.34537 14.3515 8.74481C14.3515 10.2708 13.5619 11.6156 12.3698 12.3927C14.5384 13.2869 16.0963 15.3696 16.2274 17.825C16.5202 17.5911 16.8022 17.3399 17.0711 17.0711C18.9598 15.1823 20 12.6711 20 10C20 7.3288 18.9598 4.81766 17.0711 2.92892ZM10.0001 13.0964C7.20742 13.0964 4.93538 15.3684 4.93538 18.1611C4.93538 18.3226 4.94332 18.4824 4.95827 18.64C6.47179 19.5267 8.19939 20 10.0001 20C11.8008 20 13.5284 19.5267 15.0419 18.64C15.0568 18.4822 15.0648 18.3226 15.0648 18.1611C15.0648 15.3684 12.7927 13.0964 10.0001 13.0964ZM9.99998 5.56519C11.7532 5.56519 13.1796 6.99142 13.1796 8.74481C13.1796 10.498 11.7532 11.9244 9.99998 11.9244C8.24674 11.9244 6.82035 10.498 6.82035 8.74481C6.82035 6.99158 8.24674 5.56519 9.99998 5.56519Z"
+                      fill="#464646"
+                    />
+                  </svg>
+                  Артур
+                </p>
+                <span> 24.08.2024 </span>
+              </div>
+              <div class="comment_body">
+                <p>
+                  Коммуникация с ними всегда была отличной, они оперативно
+                  реагировали на наши запросы и предоставляли подробные отчеты о
+                  проделанной работе.
+                </p>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="comment_header">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.0711 2.92892C15.1823 1.04019 12.6712 0 10 0C7.3288 0 4.81766 1.04019 2.92892 2.92892C1.04019 4.81766 0 7.3288 0 10C0 12.6711 1.04019 15.1823 2.92892 17.0711C3.19778 17.3401 3.47977 17.5911 3.77258 17.825C3.90366 15.3696 5.46158 13.2869 7.63016 12.3927C6.43814 11.6156 5.6485 10.2708 5.6485 8.74481C5.6485 6.34537 7.60056 4.39331 10 4.39331C12.3994 4.39331 14.3515 6.34537 14.3515 8.74481C14.3515 10.2708 13.5619 11.6156 12.3698 12.3927C14.5384 13.2869 16.0963 15.3696 16.2274 17.825C16.5202 17.5911 16.8022 17.3399 17.0711 17.0711C18.9598 15.1823 20 12.6711 20 10C20 7.3288 18.9598 4.81766 17.0711 2.92892ZM10.0001 13.0964C7.20742 13.0964 4.93538 15.3684 4.93538 18.1611C4.93538 18.3226 4.94332 18.4824 4.95827 18.64C6.47179 19.5267 8.19939 20 10.0001 20C11.8008 20 13.5284 19.5267 15.0419 18.64C15.0568 18.4822 15.0648 18.3226 15.0648 18.1611C15.0648 15.3684 12.7927 13.0964 10.0001 13.0964ZM9.99998 5.56519C11.7532 5.56519 13.1796 6.99142 13.1796 8.74481C13.1796 10.498 11.7532 11.9244 9.99998 11.9244C8.24674 11.9244 6.82035 10.498 6.82035 8.74481C6.82035 6.99158 8.24674 5.56519 9.99998 5.56519Z"
+                      fill="#464646"
+                    />
+                  </svg>
+                  Артур
+                </p>
+                <span> 24.08.2024 </span>
+              </div>
+              <div class="comment_body">
+                <p>
+                  Коммуникация с ними всегда была отличной, они оперативно
+                  реагировали на наши запросы и предоставляли подробные отчеты о
+                  проделанной работе.
+                </p>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="comment_header">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.0711 2.92892C15.1823 1.04019 12.6712 0 10 0C7.3288 0 4.81766 1.04019 2.92892 2.92892C1.04019 4.81766 0 7.3288 0 10C0 12.6711 1.04019 15.1823 2.92892 17.0711C3.19778 17.3401 3.47977 17.5911 3.77258 17.825C3.90366 15.3696 5.46158 13.2869 7.63016 12.3927C6.43814 11.6156 5.6485 10.2708 5.6485 8.74481C5.6485 6.34537 7.60056 4.39331 10 4.39331C12.3994 4.39331 14.3515 6.34537 14.3515 8.74481C14.3515 10.2708 13.5619 11.6156 12.3698 12.3927C14.5384 13.2869 16.0963 15.3696 16.2274 17.825C16.5202 17.5911 16.8022 17.3399 17.0711 17.0711C18.9598 15.1823 20 12.6711 20 10C20 7.3288 18.9598 4.81766 17.0711 2.92892ZM10.0001 13.0964C7.20742 13.0964 4.93538 15.3684 4.93538 18.1611C4.93538 18.3226 4.94332 18.4824 4.95827 18.64C6.47179 19.5267 8.19939 20 10.0001 20C11.8008 20 13.5284 19.5267 15.0419 18.64C15.0568 18.4822 15.0648 18.3226 15.0648 18.1611C15.0648 15.3684 12.7927 13.0964 10.0001 13.0964ZM9.99998 5.56519C11.7532 5.56519 13.1796 6.99142 13.1796 8.74481C13.1796 10.498 11.7532 11.9244 9.99998 11.9244C8.24674 11.9244 6.82035 10.498 6.82035 8.74481C6.82035 6.99158 8.24674 5.56519 9.99998 5.56519Z"
+                      fill="#464646"
+                    />
+                  </svg>
+                  Артур
+                </p>
+                <span> 24.08.2024 </span>
+              </div>
+              <div class="comment_body">
+                <p>
+                  Коммуникация с ними всегда была отличной, они оперативно
+                  реагировали на наши запросы и предоставляли подробные отчеты о
+                  проделанной работе.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Comments section -->
+
+      <!-- Only Exchange section -->
+      <section class="exchange_only">
+        <div class="container">
+          <div class="exchange_items_info">
+            <h1 class="title">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="46"
+                height="46"
+                viewBox="0 0 46 46"
+                fill="none"
+              >
+                <path
+                  d="M17.75 3.5C12.8442 3.5 8.67192 6.63995 7.13315 11.0198L8.5397 9.8477C9.17607 9.3173 10.122 9.40333 10.6523 10.0397C11.1826 10.6761 11.0967 11.622 10.4602 12.1523L5.96024 15.9023C5.6082 16.1957 5.14138 16.312 4.69284 16.2182C4.2443 16.1244 3.86325 15.8307 3.65832 15.4208L1.03332 10.1708C0.662837 9.42987 0.963175 8.52882 1.70414 8.15832C2.44511 7.7879 3.34612 8.0882 3.7166 8.8292L4.30717 10.0103C6.26048 4.47027 11.5416 0.5 17.75 0.5C18.5784 0.5 19.25 1.17157 19.25 2C19.25 2.82843 18.5784 3.5 17.75 3.5Z"
+                  fill="#282822"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M18.7812 20.75C18.7812 19.9216 18.1096 19.25 17.2812 19.25C16.4528 19.25 15.7812 19.9216 15.7812 20.75V21.1785H14C13.1716 21.1785 12.5 21.8502 12.5 22.6785V32.3215C12.5 33.1498 13.1716 33.8215 14 33.8215H15.7812V34.25C15.7812 35.0785 16.4528 35.75 17.2812 35.75C18.1096 35.75 18.7812 35.0785 18.7812 34.25V33.8215H19.1562C21.3186 33.8215 23 32.0304 23 29.9107C23 29.0105 22.6967 28.1696 22.1822 27.5C22.6967 26.8304 23 25.9895 23 25.0893C23 22.9696 21.3186 21.1785 19.1562 21.1785H18.7812V20.75ZM15.5 24.1785H19.1562C19.5826 24.1785 20 24.5462 20 25.0893C20 25.6324 19.5826 26 19.1562 26H15.5V24.1785ZM15.5 29H19.1562C19.5826 29 20 29.3676 20 29.9107C20 30.4538 19.5826 30.8215 19.1562 30.8215H15.5V29Z"
+                  fill="#282822"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M4.24997 27.5C4.24997 20.8279 9.09028 15.2862 15.4511 14.1949C17.2482 8.84997 22.2996 5 28.2502 5C35.706 5 41.7502 11.0442 41.7502 18.5C41.7502 25.1721 36.9098 30.7138 30.549 31.8051C28.7519 37.15 23.7006 41 17.75 41C10.2941 41 4.24997 34.9558 4.24997 27.5ZM31.25 27.5C31.25 20.3783 25.7355 14.5447 18.7436 14.036C20.4214 10.4692 24.0474 8 28.2502 8C34.0492 8 38.7502 12.701 38.7502 18.5C38.7502 23.2721 35.5667 27.3006 31.2076 28.5778C31.2357 28.2222 31.25 27.8628 31.25 27.5ZM17.75 17C11.951 17 7.25001 21.701 7.25001 27.5C7.25001 33.299 11.951 38 17.75 38C23.5489 38 28.25 33.299 28.25 27.5C28.25 21.701 23.5489 17 17.75 17Z"
+                  fill="#282822"
+                />
+                <path
+                  d="M38.8668 34.9802C37.328 39.36 33.1557 42.5 28.25 42.5C27.4216 42.5 26.75 43.1715 26.75 44C26.75 44.8284 27.4216 45.5 28.25 45.5C34.4583 45.5 39.7395 41.5297 41.6928 35.9897L42.2833 37.1708C42.6538 37.9118 43.5548 38.2121 44.2958 37.8417C45.0367 37.4712 45.3371 36.5701 44.9666 35.8292L42.3416 30.5792C42.1367 30.1693 41.7556 29.8756 41.3071 29.7818C40.8586 29.688 40.3918 29.8043 40.0397 30.0977L35.5397 33.8477C34.9033 34.378 34.8173 35.3238 35.3476 35.9603C35.878 36.5967 36.8238 36.6827 37.4602 36.1523L38.8668 34.9802Z"
+                  fill="#282822"
+                />
+                <path
+                  d="M31.2499 27.5C31.2499 20.3783 25.7354 14.5446 18.7435 14.036C20.4213 10.4692 24.0474 8 28.2501 8C34.0491 8 38.7501 12.701 38.7501 18.5C38.7501 23.2721 35.5666 27.3006 31.2076 28.5777C31.2356 28.2222 31.2499 27.8628 31.2499 27.5Z"
+                  fill="#FED130"
+                />
+              </svg>
+
+              <span class="gilroy-font"> Только что обменяли </span>
+            </h1>
+          </div>
+
+          <div class="exchange_items">
+            <div class="vr"></div>
+            <div class="exchange_item">
+              <div class="from">
+                <img src="./images/from-1.png" alt="" />
+                <p>8000 СБП RUB</p>
+              </div>
+              <img src="./images/icons/right-arrow.svg" alt="" />
+              <div class="to">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <rect width="30" height="30" rx="5" fill="#FF2525" />
+                  <rect
+                    x="4.61539"
+                    y="3.46155"
+                    width="20.7692"
+                    height="23.0769"
+                    rx="6"
+                    fill="white"
+                  />
+                  <path
+                    d="M16.5989 16.3818V16.3867C20.2524 16.2227 22.9799 15.586 22.9799 14.824C22.9799 14.0619 20.2548 13.4253 16.5989 13.2613V15.75C16.4928 15.7597 15.9236 15.8079 14.7854 15.8079C13.8376 15.8079 13.1503 15.7669 12.9116 15.75V13.2589C9.25078 13.4204 6.51609 14.0595 6.51609 14.8215C6.51609 15.586 9.24842 16.2227 12.9116 16.3842V16.3818C13.1479 16.3939 13.8159 16.4204 14.7684 16.4204C15.9599 16.4204 16.4952 16.3891 16.5989 16.3818Z"
+                    fill="#FF2525"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M30 15C30 23.2843 23.2843 30 15.0001 30C6.71568 30 0 23.2843 0 15C0 6.71573 6.71568 0 15.0001 0C23.2843 0 30 6.71573 30 15ZM16.5989 10.7749V13.0032L16.6013 13.0056C20.7396 13.1961 23.8505 14.0185 23.8505 15C23.8505 15.9839 20.7396 16.8039 16.6013 16.9944V24.1375H12.9139V16.9944C8.77094 16.8015 5.65272 15.9815 5.65272 14.9976C5.65272 14.0137 8.76846 13.1937 12.9139 13.0032V10.7749H7.81349V7.37702H21.6994V10.7749H16.5989Z"
+                    fill="#FF2525"
+                  />
+                </svg>
+
+                79.9 TRC20 USDT
+              </div>
+            </div>
+            <div class="vr"></div>
+            <div class="exchange_item">
+              <div class="from">
+                <img src="./images/from-1.png" alt="" />
+                <p>1000 СБП RUB</p>
+              </div>
+              <img src="./images/icons/right-arrow.svg" alt="" />
+              <div class="to">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <rect width="30" height="30" rx="5" fill="#FF2525" />
+                  <rect
+                    x="4.61539"
+                    y="3.46155"
+                    width="20.7692"
+                    height="23.0769"
+                    rx="6"
+                    fill="white"
+                  />
+                  <path
+                    d="M16.5989 16.3818V16.3867C20.2524 16.2227 22.9799 15.586 22.9799 14.824C22.9799 14.0619 20.2548 13.4253 16.5989 13.2613V15.75C16.4928 15.7597 15.9236 15.8079 14.7854 15.8079C13.8376 15.8079 13.1503 15.7669 12.9116 15.75V13.2589C9.25078 13.4204 6.51609 14.0595 6.51609 14.8215C6.51609 15.586 9.24842 16.2227 12.9116 16.3842V16.3818C13.1479 16.3939 13.8159 16.4204 14.7684 16.4204C15.9599 16.4204 16.4952 16.3891 16.5989 16.3818Z"
+                    fill="#FF2525"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M30 15C30 23.2843 23.2843 30 15.0001 30C6.71568 30 0 23.2843 0 15C0 6.71573 6.71568 0 15.0001 0C23.2843 0 30 6.71573 30 15ZM16.5989 10.7749V13.0032L16.6013 13.0056C20.7396 13.1961 23.8505 14.0185 23.8505 15C23.8505 15.9839 20.7396 16.8039 16.6013 16.9944V24.1375H12.9139V16.9944C8.77094 16.8015 5.65272 15.9815 5.65272 14.9976C5.65272 14.0137 8.76846 13.1937 12.9139 13.0032V10.7749H7.81349V7.37702H21.6994V10.7749H16.5989Z"
+                    fill="#FF2525"
+                  />
+                </svg>
+
+                8.9 TRC20 USDT
+              </div>
+            </div>
+            <div class="vr remove_in_responsive"></div>
+            <div class="exchange_item remove_in_responsive">
+              <div class="from">
+                <img src="./images/from-3.png" alt="" />
+                <p>15800 Сбербанк RUB</p>
+              </div>
+              <img src="./images/icons/right-arrow.svg" alt="" />
+              <div class="to">
+                <img src="./images/to-3.png" alt="" />
+
+                0.00362399 Bitcoin BTC
+              </div>
+            </div>
+            <div class="vr"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /Only Exchange section -->
+
+      <!-- Cookies section -->
+      <section class="accept_cookies">
+        <div class="container">
+          <p>
+            На нашем сайте мы используем cookie для сбора информации
+            технического характера. 
+          </p>
+
+          <button class="btn" style="box-shadow: unset">
+            согласен
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="31"
+              viewBox="0 0 30 31"
+              fill="none"
+            >
+              <path
+                d="M23.7573 6.35075C21.7194 7.86224 16.1248 10.2982 10.0498 7.95013"
+                stroke="#464646"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M23.7568 6.35089C22.2453 8.38882 19.8092 13.9834 22.1571 20.0582"
+                stroke="#464646"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M6.36401 24.364L24.0417 6.68628"
+                stroke="#464646"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </section>
+      <!-- /Cookies section -->
+
+      <!-- From cryptos modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                Выберите валюту
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="exchange_bottom_left">
+                <div class="exchange_bottom_item active">
+                  <img src="./images/cryptos/Group 47.svg" alt="" />
+                  <span>Тинькофф RUB</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 70.svg" alt="" />
+                  <span>Сбербанк RUB</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 69.svg" alt="" />
+                  <span>СБП RUB</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/картаСС.svg" alt="" />
+                  <span>VISA/Mastercard/Мир RUB</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 49.svg" alt="" />
+                  <span>Bitcoin BTC</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 52.svg" alt="" />
+                  <span>Monero XMR</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 54.svg" alt="" />
+                  <span>Litecoin LTC</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 56.svg" alt="" />
+                  <span>TRC20 USDT</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 57.svg" alt="" />
+                  <span>Dash DASH</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 58.svg" alt="" />
+                  <span>Ethereum ETH</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 59.svg" alt="" />
+                  <span>Toncoin TON</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 60.svg" alt="" />
+                  <span>Bitcoin Cash BCH</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 61.svg" alt="" />
+                  <span>Dogecoin DOGE</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 62.svg" alt="" />
+                  <span>Zcash ZEC</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 63.svg" alt="" />
+                  <span>Ripple XRP</span>
+                </div>
+              </div>
+              <!-- </div> -->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-bs-dismiss="modal">
+                закрыть
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- From cryptos modal -->
+
+      <!-- From cryptos modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Выберите валюту
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="exchange_bottom_right">
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 51.svg" alt="" />
+                  <span>Bitcoin BTC</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 53.svg" alt="" />
+                  <span>Monero XMR</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 55.svg" alt="" />
+                  <span>Litecoin LTC</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 64.svg" alt="" />
+                  <span>TRC20 USDT</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 65.svg" alt="" />
+                  <span>Dash DASH</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 66.svg" alt="" />
+                  <span>Ethereum ETH</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 67.svg" alt="" />
+                  <span>Bitcoin Cash BCH</span>
+                </div>
+                <div class="exchange_bottom_item">
+                  <img src="./images/cryptos/Group 68.svg" alt="" />
+                  <span>Dogecoin DOGE</span>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                закрыть
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- From cryptos modal -->
+
+      <!-- Background image -->
+      <div class="background_image">
+        <img src="./images/main-background.svg" alt="" />
+      </div>
+      <!-- /Background image -->
+
+      <!-- Overlay -->
+      <div class="overlay hidden"></div>
+      <!-- Overlay -->
+    </main>
+    <!-- /Main section -->
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_icons footer_icons_show">
+          <div class="footer_icon">
+            <img src="./images/icons/email.png" alt="" />
+          </div>
+          <div class="footer_icon">
+            <img src="./images/icons/telegram.png" alt="" />
+          </div>
+          <div class="footer_icon">
+            <img src="./images/icons/bot.png" alt="" />
+          </div>
+        </div>
+        <div class="footer_logo">
+          <img src="./images/logo.png" alt="" />
+
+          <p>© 2024 FastBIt. All rights reserved.</p>
+        </div>
+        <div class="footer_responsive">
+          <img src="./images/logo.png" alt="" />
+
+          <div class="footer_icons">
+            <div class="footer_icon">
+              <img src="./images/icons/email.png" alt="" />
+            </div>
+            <div class="footer_icon">
+              <img src="./images/icons/telegram.png" alt="" />
+            </div>
+            <div class="footer_icon">
+              <img src="./images/icons/bot.png" alt="" />
+            </div>
+          </div>
+
+          <p class="copyright">© 2024 FastBIt. All rights reserved.</p>
+        </div>
+        <ul class="footer_items">
+          <li class="footer_item">
+            <a href="#">Карта сайта</a>
+          </li>
+          <li class="footer_item">
+            <a href="#">Контакты</a>
+          </li>
+          <li class="footer_item">
+            <a href="#">Мониторингам</a>
+          </li>
+          <li class="footer_item">
+            <a href="#">API Документация</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- /Footer section -->
+
+    <!-- Link to js -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

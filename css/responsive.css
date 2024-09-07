@@ -1,0 +1,235 @@
+@media only screen and (max-width: 1220px) {
+  .exchange .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .exchange_right_arrow_image {
+    display: none;
+  }
+
+  .rem_in_resp {
+    display: flex !important;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: -60px;
+    left: 45%;
+  }
+
+  .rem_in_resp img {
+    transform: rotate(90deg);
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .exchange_items {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .exchange_items .remove_in_responsive {
+    display: none;
+  }
+
+  .excahnge_items .vr {
+    height: 4px;
+    width: 30%;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #f4f4f4;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .categories .container {
+    overflow-x: scroll;
+    flex-wrap: unset;
+    justify-content: unset;
+  }
+
+  ::-webkit-scrollbar {
+    height: 8px;
+    width: 12px; /* Set the scrollbar width */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light grey background */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Dark grey handle */
+    border-radius: 10px; /* Rounded edges */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker handle on hover */
+  }
+}
+
+@media only screen and (max-width: 835px) {
+  .comments {
+    flex-direction: column;
+  }
+
+  .comment {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .show_in_resp {
+    display: block !important;
+  }
+
+  .rem_in_resp {
+    display: none !important;
+  }
+
+  .exchange_top_res_image {
+    display: flex;
+    position: relative;
+    z-index: 99;
+  }
+
+  .exchange .container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .show-in-resp {
+    margin-top: unset;
+    display: flex !important;
+  }
+
+  .show-in-resp button {
+    width: 266px !important;
+  }
+
+  .completed_text {
+    display: flex !important;
+    text-align: center;
+    margin: 20px 0px;
+    color: #7c7c7c;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .completed_text span {
+    color: #87b000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .exchange_left {
+    background: transparent;
+    min-height: unset;
+    padding: unset;
+  }
+
+  .exchange_item_image::after {
+    left: 100px !important;
+  }
+
+  .exchange_right {
+    height: unset;
+    display: flex;
+    justify-content: center;
+  }
+
+  .exchange_bottom,
+  .exchange_top_image {
+    display: none;
+  }
+
+  .exchange_top {
+    flex-direction: column;
+  }
+
+  .exchange_form_checkboxes {
+    display: none;
+  }
+
+  .show-in-resp {
+    margin: unset !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .nav_socials {
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .accept_cookies {
+    display: none;
+  }
+
+  .pc-responsive {
+    display: none;
+  }
+
+  .mobile-responsive {
+    display: block !important;
+  }
+
+  .footer_responsive {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer_responsive p {
+    color: #fff;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 13.2px */
+  }
+
+  .footer_icons_show,
+  .footer_logo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .nav_socials span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .exchange_right {
+    width: 300px;
+  }
+
+  .exchange_right input {
+    width: 250px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .completed_names {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .nav_profile span {
+    display: none;
+  }
+
+  .nav_click_items {
+    right: 0px;
+    left: unset;
+  }
+}
