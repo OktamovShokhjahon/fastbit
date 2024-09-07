@@ -62,6 +62,10 @@
   margin-top: 40px !important;
 }
 
+.background_image {
+  top: 800px !important;
+}
+
 .exchange_left {
   min-height: 580px !important;
 }
