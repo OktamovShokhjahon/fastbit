@@ -1,0 +1,144 @@
+.status_active_left {
+  max-width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status_active_left .exchange_body {
+  width: 50%;
+}
+
+.exchange_vectors {
+  margin-top: 90px;
+  position: relative;
+}
+
+.status_active_left {
+  min-height: 655px !important;
+  padding: 0 20px !important;
+}
+
+.status_active_left .exchange_body_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.exchange_bottom.status_active_right img {
+  max-width: 150px;
+  width: 100%;
+  margin: 27px;
+}
+
+.status_active_right p {
+  color: #464646;
+  font-weight: 300;
+}
+
+.status_active_right p span {
+  color: #87b000;
+  line-height: 140%; /* 22.4px */
+}
+
+.status_active_left input {
+  border-radius: 25px;
+  background: #282822;
+  color: #fed130;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 380px;
+  padding: 15px;
+}
+
+.exchange_address_input {
+  position: relative;
+}
+
+.exchange_address_input svg {
+  position: absolute;
+  right: 5%;
+  top: 17px;
+}
+
+.status_active_right {
+  padding: 0 !important;
+}
+
+.status_active_left .exchange_body_title img {
+  width: 73px;
+}
+
+.status_active_left .exchange_body_title h2 {
+  color: #464646;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.exchange {
+  position: relative;
+}
+
+.exchange_footer {
+  bottom: 0;
+  position: absolute;
+  left: 40%;
+}
+
+.exchange_footer span {
+  color: #464646;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 140%;
+  text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 1230px) {
+  .exchange_left.status_active_left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px !important;
+  }
+
+  .exchange_footer {
+    left: 35%;
+  }
+
+  .exchange_body {
+    width: 100% !important;
+  }
+
+  .exchange_footer p {
+    text-align: center;
+  }
+
+  .exchange_bottom.status_active_right {
+    width: 100% !important;
+  }
+
+  .exchange_address_input svg {
+    right: 31%;
+  }
+}
+
+@media only screen and (max-width: 754px) {
+  .exchange_body_container {
+    margin-top: -15px;
+  }
+
+  .exchange_body_right p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .exchange_body_container {
+    display: flex !important;
+  }
+
+  .exchange_address_input svg {
+    right: 14% !important;
+  }
+}
