@@ -1,0 +1,138 @@
+.exchange_bottom_warning {
+  margin-top: 30px;
+}
+
+.exchange_bottom_warning .err {
+  color: #ff2525;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.wallet_exchange_right {
+  display: flex;
+  justify-content: space-between;
+  max-width: 824px;
+  min-height: 428px;
+}
+
+.wallet_exchange_right_left {
+  width: 50%;
+}
+
+.wallet_exchange_right_left .subtitle {
+  color: #464646;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.wallet_exchange_right_right {
+  width: 50%;
+}
+
+.wallet_exchange_right_left > div {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wallet_exchange_right_left .wallet_exchange_vector {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+}
+
+.wallet_exchange_right_left .wallet_exchange_vector_2 {
+  top: 70px;
+}
+
+.wallet_exchange_right_left h3 {
+  position: relative;
+  display: block;
+  z-index: 2;
+  margin-top: 30px;
+  left: 26%;
+  color: #282822;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.wallet_exchange_right_left h2 {
+  color: #282822;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  display: block;
+  z-index: 2;
+  left: 28%;
+}
+
+.wallet_exchange_right_left h1 {
+  color: #87b000;
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+  font-weight: 500;
+  left: 20%;
+}
+
+.wallet_exchange_right_left_hr {
+  width: 2px;
+  position: relative;
+  left: 37%;
+  margin-top: -50px;
+  height: 179px;
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.28) 99%
+  );
+}
+
+.wallet_exchange_right_left_h3 {
+  margin-top: -60px !important;
+}
+
+@media only screen and (max-width: 1110px) {
+  .exchange .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wallet_exchange_border {
+    top: -20px;
+  }
+
+  .wallet_exchange_border svg {
+    transform: rotate(90deg);
+  }
+
+  .wallet_exchange_right {
+    margin-top: -45px;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .wallet_exchange_right {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wallet_exchange_right_left {
+    width: 100%;
+  }
+
+  .wallet_exchange_right_right {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .wallet_exchange_border svg {
+    transform: unset;
+  }
+}
